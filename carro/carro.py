@@ -7,11 +7,11 @@
 class Carro:
     # crei el constructor con su peticion request.
     def __init__(self, request):
-        self.request=request
-        self.session = request.session
-        carro=self.session.get('carro')
-        if not carro:
-            carro=self.session['carro']={}
+        # self.request=request
+        # self.session = request.session
+        # carro=self.session.get('carro')
+        # if not carro:
+        #     carro=self.session['carro']={}
         # else:
         self.carro=carro
             
