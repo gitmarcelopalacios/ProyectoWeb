@@ -15,8 +15,8 @@ Including another URLconf
 """
 from django.urls import path
 
-from . import views
+from .views import VRegistro
 
 urlpatterns = [
-    path('autenticacion/', views.autenticacion , name="Autenticacion"),
+    path('autenticacion/', VRegistro.as_view(), name="Autenticacion"),
 ]

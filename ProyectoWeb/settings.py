@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'tienda',
     'carro',
     'autenticacion',
+    'crispy_forms',
+    'crispy_bootstrap4',
 
 ]
 
@@ -143,3 +145,6 @@ EMAIL_HOST_PASSWORD="Diana01#"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CRISPY_ALLOWED_TEMPLATE_PACK='bootstrap4'
+CRISPY_TEMPLATE_PACK='bootstrap4'
